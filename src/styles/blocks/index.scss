@@ -1,0 +1,29 @@
+@import '../blocks/variables';
+@import '../blocks/header';
+@import '../blocks/logo';
+@import '../blocks/main';
+@import '../blocks/card';
+@import '../blocks/prise';
+@import '../blocks/rating';
+
+body,
+ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
