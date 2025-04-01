@@ -44,5 +44,5 @@ This is possible because [we use the Parcel library](https://en.parceljs.org/scs
 - [x] Repeated sizes and special colors are put to variables
 - [x] Grid is used for the columns
 - [x] Cards are shown in 1, 2, 3, or 4 columns based on screen resolution
-- [ ] All changes on `:hover` are smooth
-- [ ] Code follows all the [Code Style Rules ❗️](https://mate-academy.github.io/layout_task-guideline/html-css-code-style-rules)
+- [x] All changes on `:hover` are smooth
+- [x] Code follows all the [Code Style Rules ❗️](https://mate-academy.github.io/layout_task-guideline/html-css-code-style-rules)
