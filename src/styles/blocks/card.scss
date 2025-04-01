@@ -1,14 +1,18 @@
 .card {
+  margin: 0 auto;
+  padding: 32px 16px 16px;
+
   display: flex;
   flex-direction: column;
 
-  box-sizing: border-box;
-  width: 200px;
-  margin: 0 auto;
-  padding: 32px 16px 16px;
+  width: $cardWidth;
+
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+
   background-color: #fff;
+
+  transform: scale(1);
 
   transition: all 0.3s;
 
@@ -17,7 +21,7 @@
     height: 134px;
     margin: 0 auto 40px;
 
-    background-image: url('../../images/imac.jpeg');
+    background-image: url('../images/imac.jpeg');
     background-position: center;
     background-size: cover;
   }
@@ -29,9 +33,16 @@
     font-weight: 500;
     line-height: 18px;
     color: $dark;
+
+    transition: all 0.3s;
   }
-  &:hover &__title {
-    color: $mid-blue;
+
+  &:hover {
+    transform: scale(1.2);
+
+    &__title {
+      color: $mid-blue;
+    }
   }
 
   &__code {
@@ -59,15 +70,14 @@
     width: 166px;
     height: 38px;
 
-    border-radius: 5px;
-
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
+
     border: 1px solid $blue;
+    border-radius: 5px;
 
     color: white;
-
     background-color: $blue;
 
     transition: all 0.3s;
